@@ -1,12 +1,13 @@
 import React from 'react'; //importamos react 
 import  ReactDOM  from 'react-dom/client'; //herramienta para renderizar react como es web usamos DOM
 import { HelloWorldApp } from './HelloWorldApp';
+import { Naej } from './Naej';
 
 
 
 
 ReactDOM.createRoot(document.getElementById('root')).render( //forma de renderizar nuestro componente
     <React.StrictMode>
-        <HelloWorldApp />
+        <Naej/>
     </React.StrictMode>
 );
