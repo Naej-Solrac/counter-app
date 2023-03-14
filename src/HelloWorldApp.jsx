@@ -2,7 +2,8 @@
 //     return (<h1>Hola mundo!!!</h1>);
 // }
 
-//rafc shortcut
+//rafc shortcut atajo para hacer lo de arriba pero para q funcione
+//cambiamos la variable de App a HelloWorldApp y es arrow function
 
 export const HelloWorldApp = () => {
   return (
