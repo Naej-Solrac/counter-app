@@ -1,12 +1,19 @@
-import Fragment from 'react' //con est podemos utilizar <Fragment> abre y cierra
-//o podemos usar <> </> y evitar usar el import
-import React from 'react'
+const Suma = (n1, n2) => {
+    return n1 + n2;
+}
+
+const newMessage = {
+    message: 'holaa',
+    para: 'Jean',
+};
 
 export const Naej = () => {
-  return (
+    
+    return (
     <>
-    <h2>Naej</h2>
-    <p>Soy un subtitulo</p>
+        <code>{Suma(2, 3)}</code>
+        <code>{JSON.stringify( newMessage )}</code>
+        <p>Soy un subtituloo</p>
     </>
   );
 }
