@@ -8,7 +8,7 @@ import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render( //forma de renderizar nuestro componente
     <React.StrictMode>
-        <Naej title = "soy goku" subtitle= {123}/>
+        <Naej/>
     </React.StrictMode>
 );
 
