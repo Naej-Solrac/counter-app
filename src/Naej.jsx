@@ -1,8 +1,9 @@
-export const Naej = () => {    
+export const Naej = ({title, subtitle}) => {    
+
     return (
     <>
-        <h1>Naej</h1>
-        <p>Soy un subtituloo</p>
+        <h1>{title}</h1>
+        <p>{subtitle+1}</p>
     </>
   );
 }

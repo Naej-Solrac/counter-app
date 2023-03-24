@@ -7,6 +7,6 @@ import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render( //forma de renderizar nuestro componente
     <React.StrictMode>
-        <Naej/>
+        <Naej title="Hola soy Naej" subtitle={123}/>
     </React.StrictMode>
 );
