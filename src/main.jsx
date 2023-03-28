@@ -8,7 +8,7 @@ import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render( //forma de renderizar nuestro componente
     <React.StrictMode>
-        <CounterApp value = {991014002}/>
+        <CounterApp value = {20}/>
     </React.StrictMode>
 );
 
