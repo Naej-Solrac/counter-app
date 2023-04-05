@@ -1,2 +1,2 @@
 # counter-app
-agregar o disminuir uno en uno
+agregar o disminuir de uno en uno
